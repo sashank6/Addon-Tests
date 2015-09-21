@@ -6,9 +6,9 @@ This repository contains Selenium tests used to test the website addons.mozilla.
 
 [![license](https://img.shields.io/badge/license-MPL%202.0-blue.svg)](https://github.com/mozilla/Addon-Tests/blob/master/LICENSE)
 [![travis](https://img.shields.io/travis/mozilla/Addon-Tests.svg?label=travis)](http://travis-ci.org/mozilla/Addon-Tests/)
-[![dev](https://img.shields.io/jenkins/s/https/webqa-ci.mozilla.com/amo.dev.svg?label=dev)](https://webqa-ci.mozilla.com/view/AMO/job/amo.dev/)
-[![stage](https://img.shields.io/jenkins/s/https/webqa-ci.mozilla.com/amo.stage.svg?label=stage)](https://webqa-ci.mozilla.com/view/AMO/job/amo.stage/)
-[![prod](https://img.shields.io/jenkins/s/https/webqa-ci.mozilla.com/amo.prod.svg?label=prod)](https://webqa-ci.mozilla.com/view/AMO/job/amo.prod/)
+[![dev](https://img.shields.io/jenkins/s/https/webqa-ci.mozilla.com/amo.dev.svg?label=dev)](https://webqa-ci.mozilla.com/job/amo.dev/)
+[![stage](https://img.shields.io/jenkins/s/https/webqa-ci.mozilla.com/amo.stage.saucelabs.svg?label=stage)](https://webqa-ci.mozilla.com/job/amo.stage.saucelabs/)
+[![prod](https://img.shields.io/jenkins/s/https/webqa-ci.mozilla.com/amo.prod.svg?label=prod)](https://webqa-ci.mozilla.com/job/amo.prod/)
 
 Getting involved
 ----------------
@@ -48,6 +48,10 @@ If you want to get started quickly, you can try following the steps in our quick
 If you have cloned this project already then you can skip this, otherwise you'll need to clone this repo using Git.
 If you do not know how to clone a GitHub repository, check out this 
 [help page] (https://help.github.com/articles/cloning-a-repository/) from GitHub.
+
+If you think you would like to contribute to the tests by writing or maintaining them in the future,
+it would be a good idea to create a fork of this repository first, and then clone that.
+GitHub also has great instructions for [forking a repository] (https://help.github.com/articles/fork-a-repo/).
 
 ###Create or activate a Python virtual environment
 You should install this project's dependencies (which is described in the next step) into a virtual environment
