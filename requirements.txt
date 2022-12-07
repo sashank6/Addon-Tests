@@ -1,6 +1,6 @@
 # This pulls in all the libraries needed to run Selenium tests
 # on Mozilla WebQA projects
-certifi==0.0.8
+certifi==2022.12.7
 chardet==2.1.1
 execnet==1.1
 oauthlib==0.5.1
